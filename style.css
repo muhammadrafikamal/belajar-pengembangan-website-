@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 300px;
+    background-color:white;
+    color:darkgoldenrod;
+
+}
+ .navbar .gambar img {
+    width: 100px;
+    height: 120px;
+ } 
+
+ .navbar .navbar-nav {
+    display: flex;
+    flex-direction:row;
+    gap: 50px;
+    
+ }
+
+ .navbar .ig img {
+    width: 35px;
+    height: 35px;
+    margin-left: 300px;
+
+ }
+
+ .kontol {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: white;
+    background-image: url("gambar/dupl\ bg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1400px 400px;
+    height: 400px;
+    
+ }
+ .kontol .isi  p {
+    max-width: 60%;
+    margin-left: 250px;
+    font-size: medium;
+    color: azure;
+
+ }
+
+ .news .tittle h3  {
+    background-color: gold;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+ }
+
+ .isinews {
+    display: flex;
+    flex-direction: row;
+    max-width: 50%;
+    margin-left: 300px;
+    font-size: 20px;
+    
+ }
+
+ .isinews .isi-1 {
+    text-align: center
+ }
+ 
+ .isinews .isi-2 {
+    text-align: center;
+ }
+
+ .isinews .panjat img {
+     width: 250px;
+    height: 270px;
+ }
+
+ .isinews .lh img {
+    width: 250px;
+    height: 270px;
+ }
